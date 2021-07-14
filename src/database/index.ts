@@ -12,6 +12,13 @@ class Database {
 
   private connectToDB(): void {
     createConnection({
+
+      // "type": "mongodb", 
+      // "host": "localhost", 
+      // "port": 27017, 
+      // "database": "test", 
+    
+
       // type: envString("mysql"),
       // host: envString(process.env.DATABASE_HOST!, ""),
       // port: envString(Number(process.env.DATABASE_PORT!), 0),
